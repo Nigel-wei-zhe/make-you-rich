@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Nigel-wei-zhe/make-you-rich/issues"
   },
-  "homepage": "https://github.com/Nigel-wei-zhe/make-you-rich#readme"
+  "homepage": "https://github.com/Nigel-wei-zhe/make-you-rich#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
