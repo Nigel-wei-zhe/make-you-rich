@@ -7,9 +7,10 @@ const AppError = require('./utils/appError');
 
 app.set('env', process.env.NODE_ENV)
 
+app.use('/assets', express.static(path.join(__dirname, '/views/dist/assets')));
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.sendFile(path.join(__dirname, '/views/dist/index.html'))
 })
 
 
