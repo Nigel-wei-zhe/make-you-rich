@@ -1,0 +1,19 @@
+{
+  "name": "make-you-rich",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nigel-wei-zhe/make-you-rich.git"
+  },
+  "author": "nigel_lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nigel-wei-zhe/make-you-rich/issues"
+  },
+  "homepage": "https://github.com/Nigel-wei-zhe/make-you-rich#readme"
+}
