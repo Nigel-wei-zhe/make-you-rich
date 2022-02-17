@@ -10,6 +10,6 @@ $ npm i
 $ npm run build
 $ cd ..
 $ npm i
-$ cp .\.env.default .env.xx
+$ cp .\.env.default .env
 $ npm run server
 ```
