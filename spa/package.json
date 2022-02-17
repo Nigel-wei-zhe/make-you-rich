@@ -8,7 +8,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "dayjs": "^1.10.7",
+    "vue": "^3.2.25",
+    "wave-ui": "^2.31.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.2.0",
