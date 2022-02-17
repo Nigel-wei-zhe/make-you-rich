@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@line/liff": "^2.18.2",
     "dayjs": "^1.10.7",
     "vue": "^3.2.25",
     "wave-ui": "^2.31.0"

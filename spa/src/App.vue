@@ -1,5 +1,10 @@
 <template>
-  <accounting />
+  <w-app>
+    <w-flex column align-center justify-start >
+      <!-- <w-alert success icon-outside>This is a success alert.</w-alert> -->
+      <accounting />
+    </w-flex>
+  </w-app>
 </template>
 
 <script setup>
@@ -7,12 +12,5 @@ import accounting from './components/accounting.vue'
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>

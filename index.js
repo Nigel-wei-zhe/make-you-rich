@@ -14,9 +14,8 @@ app.get('/', (req, res) => {
 
 
 // error handler
-app.use(function(err, req, res,) {
+app.use(function(err, req, res) {
   // render the error page
-  res.status(err.statusCode || 500);
   res.sendFile(path.join(__dirname, '/views/error.html'))
 });
 
